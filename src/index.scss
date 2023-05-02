@@ -1,0 +1,227 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f1f3f6;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+// product
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 100%;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-2{
+  width: 20%;
+}
+.product-range{
+  box-shadow: 0 0 10px #ccc;
+  padding: 18px;
+  background-color: #fff;
+  margin: 20px 10px;
+}
+.product-bot{
+  border-bottom: solid 1px #d4cdcd73;
+  margin-top: 30px;
+ 
+}
+.cate h3{
+  letter-spacing: 1px;
+  margin-top: 10px;
+
+}
+.cate h4{
+  font-size: 23px;
+  color:gray;
+  margin-top: 15px;
+}
+.cate p{
+  font-size: 20px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.product-fil{
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.clr-btn{
+  color: blue;
+  cursor: pointer;
+}
+.akg button{
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  padding: 10px;
+  border:none;
+  background-color: #a9a9a973;
+}
+.akg-icon{
+  margin-right: 10px;
+}
+.select select{
+  padding: 10px;
+  font-size: 20px;
+}
+.select .to{
+  font-size: 25px;
+  color: gray;
+}
+.row1{
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-10{
+  width: 80%;
+}
+.product{
+  box-shadow: 0 0 10px #ccc;
+  padding: 18px;
+  background-color: #fff;
+  margin: 20px 10px;
+}
+.product-head{
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.col-4{
+  width:33.3%;
+}
+.product Card{
+  width:100%;
+ 
+}
+.card-img img{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title p{
+  font-size: 18px;
+  color:gray
+}
+
+.product span{
+  color: rgba(128, 128, 128, 0.637);
+  margin-left: 10px;
+  font-size: 20px;
+}
+.product ul{
+  display: flex;
+
+}
+.product {
+  .product-bott{
+    border-bottom: solid 1px rgba(128, 128, 128, 0.164);
+   margin-bottom: 20px;
+   margin-top: -10px;
+  }
+}
+.list{
+  position: relative;
+}
+.product li{
+  list-style-type:none;
+  margin: 0 10px;
+  font-size: 22px;
+  margin-bottom: 18px;
+  margin-top: 10px;
+}
+.product li:hover::before{
+  content: "";
+  position: absolute;
+  border: 1px solid blue;
+  width: 70px;
+    top: 46px;
+    transition: all 0.3s ease;
+    color:blue;
+  cursor: pointer;
+}
+.card-add{
+  display: flex;
+  justify-content: space-between;
+}
+.card-add button{
+  font-size: 20px;
+  border: none;
+  background-color: #80808061;
+  color:#fff;
+  font-weight: 600;
+}
+
+.star{
+  display: flex;
+  align-items: center;
+ 
+}
+.css-1yuq9pa-MuiPaper-root-MuiCard-root{
+  box-shadow: none !important;
+}
+.star p{
+  margin:0 15px 0 0;
+  color: gray;
+  font-size: 20px
+}
+.star .rate{
+  padding: 4px 7px;
+  background-color:green;
+  color:#fff;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.star .rate-icon{
+  margin: 0 0 0 5px;
+}
+.amount {
+  display: flex;
+  align-items: center;
+ 
+}
+.amount h3{
+  font-size: 22px;
+  color: black;
+  font-weight: 600;
+}
+.amount .amount1{
+  color: gray;
+  font-size: 20px;
+  margin: 0 10px;
+}
+.amount h4{
+  color:green;
+  font-size: 18px;
+}
+.select{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+
+
+
